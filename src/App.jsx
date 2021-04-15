@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="flex justify-start p-32 bg-blue-900 mt-24 dark:bg-gray-800">
       <p className="font-bold text-white text-2xl ">
-        Halo semuanya, saya
+        Halo semua, saya
         <a
           href="https://www.linkedin.com/in/hafizbhadrikaalamsyah/"
           target="_blank"
