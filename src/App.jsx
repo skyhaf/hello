@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/hello">
           <Home />
         </Route>
       </Switch>
