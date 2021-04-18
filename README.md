@@ -5,9 +5,9 @@ This repository was made intentionally to build my own protfolio website using s
 1. Figma
 3. Github
 4. Framework and Libraries
-  - React.js
-  - Tailwind CSS
-  - Chakra-UI
+    - React.js
+    - Tailwind CSS
+    - Chakra-UI
 
 ---
 # Getting Started with Create React App
