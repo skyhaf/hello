@@ -3,7 +3,8 @@
 ## Hi there..
 This repository was made intentionally to build my own protfolio website using some tools and tech stack.
 1. Figma
-3. Github
+2. Github
+3. Visual Studio Code
 4. Framework and Libraries
     - React.js
     - Tailwind CSS
