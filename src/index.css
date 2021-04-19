@@ -54,11 +54,18 @@ code {
 }
 
 #AboutMe {
-  background-image: url("../src//Assets/fotoAbout.svg"),url("../src/Assets/aboutBackground.png");
+  background-image: url("../src//Assets/fotoAbout.svg"),url("../src/Assets/aboutBackground.svg");
   background-position: top 50px right 250px, center;
   background-repeat: no-repeat, no-repeat;
 }
 
+#tabExperience .css-1n4iitm {
+    border-color:black; 
+}
+
+#tabExperience .css-9z0gfy[aria-selected=true], .css-9z0gfy[data-selected] {
+  border-color: white;
+}
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;

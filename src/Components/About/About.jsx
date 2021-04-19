@@ -1,11 +1,6 @@
-import React from "react"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom"
-import { Tooltip } from "@chakra-ui/react"
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Tooltip } from "@chakra-ui/react";
 
 const About = () => {
   return (
@@ -17,14 +12,43 @@ const About = () => {
               ABOUT ME
             </h1>
             <p className="text-justify font-primary text-primary font-semibold text-2xl tracking-wide">
-              Hello, my name is <a href="https://www.linkedin.com/in/hafizbhadrikaalamsyah/" target="_blank" className="hover:text-secondary hover:underline"> Hafiz Bhadrika Alamsyah</a>. People call me habe.
-              Currently, i am pursuing a Computer Science degree at <a href="https://www.ui.ac.id/" target="_blank" className="hover:text-yellow hover:underline"> University
-              of Indonesia </a> majoring in Information Systems.
+              Hello, my name is{" "}
+              <a
+                href="https://www.linkedin.com/in/hafizbhadrikaalamsyah/"
+                target="_blank"
+                className="hover:text-secondary hover:underline"
+              >
+                {" "}
+                Hafiz Bhadrika Alamsyah
+              </a>
+              . People call me habe. Currently, i am pursuing a Computer Science
+              degree at{" "}
+              <a
+                href="https://www.ui.ac.id/"
+                target="_blank"
+                className="hover:text-yellow hover:underline"
+              >
+                {" "}
+                University of Indonesia{" "}
+              </a>{" "}
+              majoring in Information Systems.
             </p>
             <p className="text-justify font-primary text-primary font-semibold text-2xl tracking-wide">
-              I am a <Tooltip hasArrow label="a pokemon!" placement="top" bg="gray.300" color="black" ><span className="line-through">greninja</span></Tooltip> person that would love to challenge myself with
-              new things. As you can see, i love <span className="animate-pulse text-secondary">blue</span> sooooo muchhh. Do you want
-              to know more about me? Just scroll down the page..
+              I am a{" "}
+              <Tooltip
+                hasArrow
+                label="Greninja is a pokemon!"
+                placement="top"
+                bg="gray.300"
+                color="black"
+              >
+                <span className="line-through">greninja</span>
+              </Tooltip>{" "}
+              person that would love to challenge myself with new things. As you
+              can see, i love{" "}
+              <span className="animate-pulse text-secondary">blue</span> sooooo
+              muchhh. Do you want to know more about me? Just scroll down the
+              page..
             </p>
           </div>
         </div>
