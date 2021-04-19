@@ -1,3 +1,16 @@
+![Skyhaf's Logo](https://skyhaf.github.io/static/media/skyhafShadow.a7b5854f.svg)
+
+## Hi there..
+This repository was made intentionally to build my own protfolio website using some tools and tech stack.
+1. Figma
+2. Github
+3. Visual Studio Code
+4. Framework and Libraries
+    - React.js
+    - Tailwind CSS
+    - Chakra-UI
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
