@@ -66,6 +66,17 @@ code {
 #tabExperience .css-9z0gfy[aria-selected=true], .css-9z0gfy[data-selected] {
   border-color: white;
 }
+
+.css-fwfm4m {
+  background-color: white;
+  
+}
+
+/* .css-fwfm4m:hover, .css-fwfm4m[data-hover]{
+  background-color: red;
+  
+} */
+
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;

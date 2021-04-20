@@ -52,14 +52,18 @@ const Experience = () => {
                       <AccordionButton
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
+                        _hover={{}}
+                        className="bg-white hover:bg-secondary hover:text-white"
                       >
-                        <Box flex="1" textAlign="left">
-                          Section 1 title
+                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                          <p clas="">
+                            Project Manager
+                          </p>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4}>
+                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -75,18 +79,77 @@ const Experience = () => {
                       <AccordionButton
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
+                        _hover={{}}
+                        className="bg-white hover:bg-secondary hover:text-white"
                       >
-                        <Box flex="1" textAlign="left">
-                          Section 2 title
+                        <Box flex="1" textAlign="left" className="font-semibold text-lg hover:text-white">
+                          <p clas="">
+                            Project Manager
+                          </p>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                      </p>
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton
+                        _active={{ outline: "none" }}
+                        _focus={{ outline: "none" }}
+                        _hover={{}}
+                        className="bg-white hover:bg-secondary hover:text-white"
+                      >
+                        <Box flex="1" textAlign="left" className="font-semibold text-lg hover:text-white">
+                          <p clas="">
+                            Project Manager
+                          </p>
+                        </Box>
+                        <AccordionIcon />
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                      </p>
+                    </AccordionPanel>
+                  </AccordionItem>
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton
+                        _active={{ outline: "none" }}
+                        _focus={{ outline: "none" }}
+                        _hover={{}}
+                        className="bg-white hover:bg-secondary"
+                      >
+                        <Box flex="1" textAlign="left" className="font-semibold text-lg hover:text-white">
+                          <p clas="">
+                            Project Manager
+                          </p>
+                        </Box>
+                        <AccordionIcon />
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                      </p>
                     </AccordionPanel>
                   </AccordionItem>
                 </Accordion>
@@ -95,6 +158,7 @@ const Experience = () => {
                 <p>three!</p>
               </TabPanel>
             </TabPanels>
+
           </Tabs>
         </div>
       </div>
