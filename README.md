@@ -1,7 +1,7 @@
 ![Skyhaf's Logo](https://skyhaf.github.io/static/media/skyhafShadow.a7b5854f.svg)
 
 ## Hi there..
-This repository was made intentionally to build my own protfolio website using some tools and tech stack.
+This repository was made intentionally to build my own portfolio website using some tools and tech stack.
 1. Figma
 2. Github
 3. Visual Studio Code
