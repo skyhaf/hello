@@ -3,6 +3,7 @@ import Navbar from "./Navbar/Navbar";
 import HeadLanding from "./HeadLanding/HeadLanding";
 import About from "./About/About";
 import Experience from "./Experience";
+import Project from "./Project"
 
 import skyhaf from "../Assets/skyhafShadow.svg";
 
@@ -100,6 +101,9 @@ const Home = () => {
         </div>
 
         <Experience />
+        <Project />
+
+
         
       </div>
     </>

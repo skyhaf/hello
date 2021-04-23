@@ -69,7 +69,23 @@ code {
 
 .css-fwfm4m {
   background-color: white;
-  
+}
+
+#skill {
+  background-image: url(../src/Assets/awanSkill.svg);
+  background-position: center 14px;
+  background-repeat: no-repeat;
+}
+
+#judulProjek {
+  background-image: url(../src/Assets/projekKanan.svg),url(../src/Assets/projekKiri.svg) ;
+  background-position: center right -20rem,center left -20rem;
+  background-repeat: no-repeat,no-repeat;
+}
+
+#seeProject:hover {
+
+  color: tan;
 }
 
 /* .css-fwfm4m:hover, .css-fwfm4m[data-hover]{
