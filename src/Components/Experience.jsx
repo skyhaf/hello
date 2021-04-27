@@ -147,12 +147,16 @@ const Experience = () => {
                           took responsibilities in choosing the right voting
                           method to use.
                         </p>
-                        <p className="text-sm pt-2"> What have i done through the time:</p>
+                        <p className="text-sm pt-2">
+                          {" "}
+                          What have i done through the time:
+                        </p>
                         <div className="flex flex-col space-y-1">
                           <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
-Build a web-based E-Voting system based on voting principles in Indonesia (Luber dan Jurdil).
+                              Build a web-based E-Voting system based on voting
+                              principles in Indonesia (Luber dan Jurdil).
                             </p>
                           </div>
                           <div className="flex flex-row space-x-2">
@@ -217,27 +221,34 @@ Build a web-based E-Voting system based on voting principles in Indonesia (Luber
                         </div>
 
                         <p className="text-sm">
-          loremm ipsum
+                          OKK UI is a campus life orientation event that help
+                          University of Indonesia freshman in order to know
+                          better about campus life in university of Indonesia.
+                          As staff of configuration, me and my teammates made a
+                          configuration that made a form of "Satu Identitas" for
+                          the Freshman of University of Indonesia.
                         </p>
-                        <p className="text-sm pt-2"> What have i done :</p>
+                        <p className="text-sm pt-2">
+                          {" "}
+                          What have i done through the time:
+                        </p>
                         <div className="flex flex-col space-y-1">
                           <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
-loewm ipsum                            </p>
-                          </div>
-                          <div className="flex flex-row space-x-2">
-                            <img src={check} className="h-5 w-5" />
-                            <p className="text-sm my-auto">
-                              lorem ipsum
+                              Concepting on how to deliver the configuration.
                             </p>
                           </div>
                           <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
-                       lorem ipsum
+                              Configuring "Satu Identias" using neon flex light.
                             </p>
                           </div>
+                          {/* <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">lorem ipsum</p>
+                          </div> */}
                         </div>
                       </div>
                     </AccordionPanel>
@@ -279,40 +290,38 @@ loewm ipsum                            </p>
                         </div>
 
                         <p className="text-sm">
-                          PEMIRA IKM UI is a non-profit organization that aims
-                          to carry out succession among University of Indonesia
-                          students starting from the president of Badan
-                          Eksekutif Mahasiswa Universitas Indonesia and Student
-                          Element of the University of Indonesia Board of
-                          Trustees. As Person in Charge of E-Voting Division, i
-                          took responsibilities in choosing the right voting
-                          method to use.
+                          DDP-0 is an anually event held by computer science of
+                          University of Indonesia students in helping freshmen
+                          learning about the foundation of programming using the
+                          python programming language.
                         </p>
-                        <p className="text-sm pt-2"> What have i done :</p>
+                        <p className="text-sm pt-2">
+                          {" "}
+                          What have i done through the time:
+                        </p>
                         <div className="flex flex-col space-y-1">
                           <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
-                              Lead development team that consist of 6 people.
+                              Helping freshmen in learning Data types &
+                              Operations, List, Tuple, Looping, Set, and
+                              Dictionary using the Python programming language.
                             </p>
                           </div>
                           <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
-                              Coordinating with every single Pemira Faculty in
-                              University of Indonesia, Dewan Perwakilan
-                              Mahasiswa UI, and Director of Student Affairs at
-                              the University of Indonesia.{" "}
+                              Create a schedule for the DDP-0 agenda.
                             </p>
                           </div>
-                          <div className="flex flex-row space-x-2">
+                          {/* <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
                               Responsible for the E-Voting system that has been
                               used by University of Indonesia students with
                               approximately 50.000 ballots{" "}
                             </p>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </AccordionPanel>
@@ -345,13 +354,43 @@ loewm ipsum                            </p>
                       pb={4}
                       className=" bg-secondary text-md text-left text-white"
                     >
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                      <div className="flex flex-col space-y-2">
+                        <div>
+                          <h1 className="font-semibold">PERAK 2020</h1>
+                          <p className="text-xs pb-4">
+                            January 2020 - September 2020
+                          </p>
+                        </div>
+
+                        <p className="text-sm">
+                          PERAK is the largest internal event at Faculty of
+                          Computer Science of University of Indonesia which aims
+                          to strengthen relationships among Faculty of Computer
+                          Science of University of Indonesia elements
+                        </p>
+                        <p className="text-sm pt-2">
+                          {" "}
+                          What have i done through the time:
+                        </p>
+                        <div className="flex flex-col space-y-1">
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Build a web-based E-Voting system based on voting
+                              principles in Indonesia (Luber dan Jurdil).
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Coordinating with every single Pemira Faculty in
+                              University of Indonesia, Dewan Perwakilan
+                              Mahasiswa UI, and Director of Student Affairs at
+                              the University of Indonesia.{" "}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -380,13 +419,33 @@ loewm ipsum                            </p>
                       pb={4}
                       className=" bg-secondary text-md text-left text-white"
                     >
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                      <div className="flex flex-col space-y-2">
+                        <div>
+                          <h1 className="font-semibold">PELITA 4</h1>
+                          <p className="text-xs pb-4">
+                            September 2018 - February 2019
+                          </p>
+                        </div>
+
+                        <p className="text-sm">
+                          PELITA 4 is an event that help 4 Depok senior high
+                          school student in pursuing their career. As project
+                          officer, I was responsible with all agenda that
+                          related with pelita 4.
+                        </p>
+                        <p className="text-sm pt-2">
+                          {" "}
+                          What have i done through the time:
+                        </p>
+                        <div className="flex flex-col space-y-1">
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Manage a team of approximately 25 people.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -417,13 +476,31 @@ loewm ipsum                            </p>
                       pb={4}
                       className=" bg-secondary text-md text-left text-white"
                     >
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                      <div className="flex flex-col space-y-2">
+                        <div>
+                          <h1 className="font-semibold">SORE 8 EXTINCT</h1>
+                          <p className="text-xs pb-4">
+                            April 2018 - January 2018
+                          </p>
+                        </div>
+
+                        <p className="text-sm">
+                          SORE 8 EXTINCT, an anually event held by 4 Depok
+                          senior high schools student that performing arts. 
+                        </p>
+                        <p className="text-sm pt-2">
+                          {" "}
+                          What have i done through the time:
+                        </p>
+                        <div className="flex flex-col space-y-1">
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Coordinating with tulus company through its manager.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
                 </Accordion>
