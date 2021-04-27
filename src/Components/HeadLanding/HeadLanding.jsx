@@ -1,6 +1,5 @@
 import React from "react";
-import awanKananLanding from "../../Assets/awanKananLanding.svg";
-import awanKiriLanding from "../../Assets/awanKiriLanding.svg";
+
 
 const HeadLanding = () => {
   return (

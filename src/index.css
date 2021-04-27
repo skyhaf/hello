@@ -32,7 +32,7 @@ code {
 }
 
 #awanKananLanding {
-  background-image:url('../src/Assets/awanKananLanding.svg');
+  background-image:url('../src/Assets/bg/awanKananLanding.svg');
   background-position: right -400px top;
   background-repeat: no-repeat;
   /* animation: awanKanan 15s linear ; */
@@ -48,13 +48,13 @@ code {
 } */
 
 #awanKiriLanding {
-  background-image: url('../src/Assets/awanKiriLanding.svg');
+  background-image: url('../src/Assets/bg/awanKiriLanding.svg');
   background-position: left -200px bottom;
   background-repeat: no-repeat;
 }
 
 #AboutMe {
-  background-image: url("../src//Assets/fotoAbout.svg"),url("../src/Assets/aboutBackground.svg");
+  background-image: url("../src/Assets/img/fotoAbout.svg"),url(../src/Assets/bg/aboutBackground.svg);
   background-position: top 50px right 250px, center;
   background-repeat: no-repeat, no-repeat;
 }
@@ -72,13 +72,13 @@ code {
 }
 
 #skill {
-  background-image: url(../src/Assets/awanSkill.svg);
+  background-image: url(../src/Assets/bg/awanSkill.svg);
   background-position: center 14px;
   background-repeat: no-repeat;
 }
 
 #judulProjek {
-  background-image: url(../src/Assets/projekKanan.svg),url(../src/Assets/projekKiri.svg) ;
+  background-image: url(../src/Assets/bg/projekKanan.svg),url(../src/Assets/bg/projekKiri.svg) ;
   background-position: center right -20rem,center left -20rem;
   background-repeat: no-repeat,no-repeat;
 }
@@ -88,12 +88,23 @@ code {
   color: tan;
 }
 
-/* .css-fwfm4m:hover, .css-fwfm4m[data-hover]{
-  background-color: red;
-  
+/* --- Particle.js --- */
+/* canvas {
+  display: block;
+  vertical-align: bottom;
 } */
 
-/* ./src/index.css */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #16B1F3;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

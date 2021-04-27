@@ -9,13 +9,14 @@ import {
 } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 
-import logoCompfest from "../Assets/logoCompfest.jpeg"
-import logoPemira from "../Assets/logoPemira.jpeg"
-import logoOKK from "../Assets/logoOKK.jpeg"
-import logoDDP0 from "../Assets/logoDDP0.jpeg"
-import logoPerak from "../Assets/logoPerak.jpeg"
-import logoCF from "../Assets/logoCF.jpeg"
-
+import logoCompfest from "../Assets/logo/logoCompfest.jpeg";
+import logoPemira from "../Assets/logo/logoPemira.jpeg";
+import logoOKK from "../Assets/logo/logoOKK.jpeg";
+import logoDDP0 from "../Assets/logo/logoDDP0.jpeg";
+import logoPerak from "../Assets/logo/logoPerak.jpeg";
+import logoCF from "../Assets/logo/logoCF.jpeg";
+import logoExtinct from "../Assets/logo/logoExtinct.jpg";
+import check from "../Assets/check.svg";
 
 const Experience = () => {
   return (
@@ -43,15 +44,18 @@ const Experience = () => {
                     SKILL
                   </p>
                 </Tab>
-
               </TabList>
             </div>
 
             <TabPanels>
               <TabPanel py={12}>
                 <p className="font-primary text-white text-2xl">
-                  Currently, i am currently looking for an internship. Do you want to{" "}
-                  <span className="font-semibold text-secondary hover:text-yellow cursor-pointer hover:underline">contact</span> me?
+                  Currently, i am currently looking for an internship. Do you
+                  want to{" "}
+                  <span className="font-semibold text-secondary hover:text-yellow cursor-pointer hover:underline">
+                    contact
+                  </span>{" "}
+                  me?
                 </p>
               </TabPanel>
               <TabPanel py={12}>
@@ -62,27 +66,39 @@ const Experience = () => {
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
                         _hover={{}}
-                        className="bg-white hover:bg-secondary hover:text-white focus:bg-secondary active:bg-secondary focus:text-white active:text-white"
+                        className="bg-white hover:bg-secondary hover:text-white "
                       >
-                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
                           <div className="flex flex-row space-x-4">
                             <img src={logoCompfest} className="h-10 w-10" />
                             <p className="my-auto">
-                            Staff of Business Development
-                          </p>
+                              Staff of Business Development
+                            </p>
                           </div>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
+                      <div className="flex flex-col">
+                        <h1 className="font-semibold">COMPFEST 13 </h1>
+                        <p className="text-xs pb-4">March 2021 - present</p>
+                        <p className="text-sm">
+                          Compfest is one of the biggest IT event held by
+                          student. As a staff of Business Development in
+                          COMPFEST 13, I took the responsibility of raising
+                          funds for COMPFEST 13 by working on IT projects from
+                          clients.
+                        </p>
+                        <p></p>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -92,27 +108,78 @@ const Experience = () => {
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
                         _hover={{}}
-                        className="bg-white hover:bg-secondary hover:text-white focus:bg-secondary active:bg-secondary focus:text-white active:text-white"
+                        className="bg-white hover:bg-secondary hover:text-white "
                       >
-                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
                           <div className="flex flex-row space-x-4">
                             <img src={logoPemira} className="h-10 w-10" />
                             <p className="my-auto">
-                            Person in Charge of E-Voting Division
-                          </p>
+                              Person in Charge of E-Voting Division
+                            </p>
                           </div>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
+                      <div className="flex flex-col space-y-2">
+                        <div>
+                          <h1 className="font-semibold">PEMIRA IKM UI 2020</h1>
+                          <p className="text-xs pb-4">
+                            October 2020 - January 2021
+                          </p>
+                        </div>
+
+                        <p className="text-sm">
+                          PEMIRA IKM UI is a non-profit organization that aims
+                          to carry out succession among University of Indonesia
+                          students starting from the president of Badan
+                          Eksekutif Mahasiswa Universitas Indonesia and Student
+                          Element of the University of Indonesia Board of
+                          Trustees. As Person in Charge of E-Voting Division, i
+                          took responsibilities in choosing the right voting
+                          method to use.
+                        </p>
+                        <p className="text-sm pt-2"> What have i done through the time:</p>
+                        <div className="flex flex-col space-y-1">
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+Build a web-based E-Voting system based on voting principles in Indonesia (Luber dan Jurdil).
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Lead development team that consist of 6 people.
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Coordinating with every single Pemira Faculty in
+                              University of Indonesia, Dewan Perwakilan
+                              Mahasiswa UI, and Director of Student Affairs at
+                              the University of Indonesia.{" "}
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Responsible for the E-Voting system that has been
+                              used by University of Indonesia students with
+                              approximately 50.000 ballots.{" "}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -122,27 +189,57 @@ const Experience = () => {
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
                         _hover={{}}
-                        className="bg-white hover:bg-secondary hover:text-white focus:bg-secondary active:bg-secondary focus:text-white active:text-white"
+                        className="bg-white hover:bg-secondary hover:text-white "
                       >
-                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
                           <div className="flex flex-row space-x-4">
                             <img src={logoOKK} className="h-10 w-10" />
-                            <p className="my-auto">
-                            Staff of Configuration
-                          </p>
+                            <p className="my-auto">Staff of Configuration</p>
                           </div>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
+                      <div className="flex flex-col space-y-2">
+                        <div>
+                          <h1 className="font-semibold">OKK UI 2020</h1>
+                          <p className="text-xs pb-4">
+                            May 2020 - September 2020
+                          </p>
+                        </div>
+
+                        <p className="text-sm">
+          loremm ipsum
+                        </p>
+                        <p className="text-sm pt-2"> What have i done :</p>
+                        <div className="flex flex-col space-y-1">
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+loewm ipsum                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              lorem ipsum
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                       lorem ipsum
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -152,27 +249,72 @@ const Experience = () => {
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
                         _hover={{}}
-                        className="bg-white hover:bg-secondary hover:text-white focus:bg-secondary active:bg-secondary focus:text-white active:text-white"
+                        className="bg-white hover:bg-secondary hover:text-white "
                       >
-                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
                           <div className="flex flex-row space-x-4">
                             <img src={logoDDP0} className="h-10 w-10" />
                             <p className="my-auto">
-                            Staff of Event & Student Mentor
-                          </p>
+                              Staff of Event & Student Mentor
+                            </p>
                           </div>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
+                      <div className="flex flex-col space-y-2">
+                        <div>
+                          <h1 className="font-semibold">DDP-0</h1>
+                          <p className="text-xs pb-4">
+                            August 2020 - September 2020
+                          </p>
+                        </div>
+
+                        <p className="text-sm">
+                          PEMIRA IKM UI is a non-profit organization that aims
+                          to carry out succession among University of Indonesia
+                          students starting from the president of Badan
+                          Eksekutif Mahasiswa Universitas Indonesia and Student
+                          Element of the University of Indonesia Board of
+                          Trustees. As Person in Charge of E-Voting Division, i
+                          took responsibilities in choosing the right voting
+                          method to use.
+                        </p>
+                        <p className="text-sm pt-2"> What have i done :</p>
+                        <div className="flex flex-col space-y-1">
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Lead development team that consist of 6 people.
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Coordinating with every single Pemira Faculty in
+                              University of Indonesia, Dewan Perwakilan
+                              Mahasiswa UI, and Director of Student Affairs at
+                              the University of Indonesia.{" "}
+                            </p>
+                          </div>
+                          <div className="flex flex-row space-x-2">
+                            <img src={check} className="h-5 w-5" />
+                            <p className="text-sm my-auto">
+                              Responsible for the E-Voting system that has been
+                              used by University of Indonesia students with
+                              approximately 50.000 ballots{" "}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </AccordionPanel>
                   </AccordionItem>
 
@@ -182,20 +324,27 @@ const Experience = () => {
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
                         _hover={{}}
-                        className="bg-white hover:bg-secondary hover:text-white focus:bg-secondary active:bg-secondary focus:text-white active:text-white"
+                        className="bg-white hover:bg-secondary hover:text-white "
                       >
-                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
                           <div className="flex flex-row space-x-4">
                             <img src={logoPerak} className="h-10 w-10" />
                             <p className="my-auto">
-                            Staff of Field Coordinator
-                          </p>
+                              Staff of Field Coordinator
+                            </p>
                           </div>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -212,20 +361,25 @@ const Experience = () => {
                         _active={{ outline: "none" }}
                         _focus={{ outline: "none" }}
                         _hover={{}}
-                        className="bg-white hover:bg-secondary hover:text-white focus:bg-secondary active:bg-secondary focus:text-white active:text-white"
+                        className="bg-white hover:bg-secondary hover:text-white "
                       >
-                        <Box flex="1" textAlign="left" className="font-semibold text-lg">
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
                           <div className="flex flex-row space-x-4">
                             <img src={logoCF} className="h-10 w-10" />
-                            <p className="my-auto">
-                              Project Officer
-                          </p>
+                            <p className="my-auto">Project Officer</p>
                           </div>
                         </Box>
                         <AccordionIcon />
                       </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} className=" bg-secondary text-md text-left text-white">
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -235,30 +389,134 @@ const Experience = () => {
                       </p>
                     </AccordionPanel>
                   </AccordionItem>
-                  
+
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton
+                        _active={{ outline: "none" }}
+                        _focus={{ outline: "none" }}
+                        _hover={{}}
+                        className="bg-white hover:bg-secondary hover:text-white "
+                      >
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          className="font-semibold text-lg"
+                        >
+                          <div className="flex flex-row space-x-4">
+                            <img src={logoExtinct} className="h-10 w-10" />
+                            <p className="my-auto">
+                              Liaison Officer of Tulus Company
+                            </p>
+                          </div>
+                        </Box>
+                        <AccordionIcon />
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel
+                      pb={4}
+                      className=" bg-secondary text-md text-left text-white"
+                    >
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                      </p>
+                    </AccordionPanel>
+                  </AccordionItem>
                 </Accordion>
               </TabPanel>
               <TabPanel py={12}>
-              <div class="grid grid-cols-3 gap-12">
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Management</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Project Management</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Proposal Writing</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">React.js</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Tailwind CSS</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Figma</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Django</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Java</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Python</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Javascript</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Problem Solving</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Teamwork</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Decision-making</div>
-                <div className="py-10 font-semibold hover:text-secondary" id="skill">Leadership</div>
-              </div>
+                <div class="grid grid-cols-3 gap-12">
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Management
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Project Management
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Proposal Writing
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    React.js
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Tailwind CSS
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Figma
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Django
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Java
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Python
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Javascript
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Problem Solving
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Teamwork
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Decision-making
+                  </div>
+                  <div
+                    className="py-10 font-semibold hover:text-secondary"
+                    id="skill"
+                  >
+                    Leadership
+                  </div>
+                </div>
               </TabPanel>
-
             </TabPanels>
-
           </Tabs>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import gambarKosong from "../Assets/aboutBackground.svg"
+import gambarKosong from "../Assets/skyhaf/skyhaf.svg"
 import { PhoneIcon, AddIcon, WarningIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 
 

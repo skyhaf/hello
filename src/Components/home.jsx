@@ -1,11 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar/Navbar";
-import HeadLanding from "./HeadLanding/HeadLanding";
-import About from "./About/About";
 import Experience from "./Experience";
 import Project from "./Project"
 
-import skyhaf from "../Assets/skyhafShadow.svg";
+import skyhaf from "../Assets/skyhaf/skyhafShadow.svg";
 
 import { Tooltip } from "@chakra-ui/react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -75,7 +72,7 @@ const Home = () => {
                   className="hover:text-yellow hover:underline"
                 >
                   {" "}
-                  University of Indonesia{" "}
+                  University of Indonesia
                 </a>{" "}
                 majoring in Information Systems.
               </p>
