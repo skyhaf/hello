@@ -1,15 +1,19 @@
 import React from "react";
 import Experience from "./Experience";
-import Project from "./Project"
+import Project from "./Project";
 
 import skyhaf from "../Assets/skyhaf/skyhafShadow.svg";
 
 import { Tooltip } from "@chakra-ui/react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Particles from "react-particles-js";
+
 const Home = () => {
   return (
     <>
       <div className="bg-primary">
+
+
         <div className="container mx-auto pt-8">
           <div className="flex flex-row justify-between">
             <Link>
@@ -100,8 +104,7 @@ const Home = () => {
         <Experience />
         <Project />
 
-
-        
+      
       </div>
     </>
   );

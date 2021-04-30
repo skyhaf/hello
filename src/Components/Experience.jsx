@@ -368,28 +368,6 @@ const Experience = () => {
                           to strengthen relationships among Faculty of Computer
                           Science of University of Indonesia elements
                         </p>
-                        <p className="text-sm pt-2">
-                          {" "}
-                          What have i done through the time:
-                        </p>
-                        <div className="flex flex-col space-y-1">
-                          <div className="flex flex-row space-x-2">
-                            <img src={check} className="h-5 w-5" />
-                            <p className="text-sm my-auto">
-                              Build a web-based E-Voting system based on voting
-                              principles in Indonesia (Luber dan Jurdil).
-                            </p>
-                          </div>
-                          <div className="flex flex-row space-x-2">
-                            <img src={check} className="h-5 w-5" />
-                            <p className="text-sm my-auto">
-                              Coordinating with every single Pemira Faculty in
-                              University of Indonesia, Dewan Perwakilan
-                              Mahasiswa UI, and Director of Student Affairs at
-                              the University of Indonesia.{" "}
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </AccordionPanel>
                   </AccordionItem>
