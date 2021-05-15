@@ -105,6 +105,11 @@ code {
   background-position: 50% 50%;
 }
 
+#footer {
+  background-image: url(./Assets/bg/footerBG.svg);
+  background-repeat: no-repeat;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

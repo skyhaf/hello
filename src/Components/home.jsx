@@ -1,6 +1,7 @@
 import React from "react";
 import Experience from "./Experience";
 import Project from "./Project";
+import Footer from "./Footer"
 
 import skyhaf from "../Assets/skyhaf/skyhafShadow.svg";
 
@@ -103,6 +104,7 @@ const Home = () => {
 
         <Experience />
         <Project />
+        <Footer />
 
       
       </div>
