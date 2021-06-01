@@ -21,7 +21,7 @@ import check from "../Assets/check.svg";
 const Experience = () => {
   return (
     <>
-      <div className="container mx-auto flex justify-center py-48">
+      <div className="container mx-auto flex justify-center py-28">
         <div className="flex flex-col w-5/6">
           <h1 className="font-head-border text-center text-5xl text-white">
             EXPERIENCE
@@ -52,9 +52,13 @@ const Experience = () => {
                 <p className="font-primary text-white text-2xl">
                   Currently, i am currently looking for an internship. Do you
                   want to{" "}
-                  <span className="font-semibold text-secondary hover:text-yellow cursor-pointer hover:underline">
+                  <a
+                    href="mailto:hafiznasution2002@gmail.com"
+                    target="_blank"
+                    className="font-semibold text-secondary hover:text-yellow cursor-pointer hover:underline"
+                  >
                     contact
-                  </span>{" "}
+                  </a>{" "}
                   me?
                 </p>
               </TabPanel>
@@ -464,7 +468,7 @@ const Experience = () => {
 
                         <p className="text-sm">
                           SORE 8 EXTINCT, an anually event held by 4 Depok
-                          senior high schools student that performing arts. 
+                          senior high schools student that performing arts.
                         </p>
                         <p className="text-sm pt-2">
                           {" "}
@@ -474,7 +478,8 @@ const Experience = () => {
                           <div className="flex flex-row space-x-2">
                             <img src={check} className="h-5 w-5" />
                             <p className="text-sm my-auto">
-                              Coordinating with tulus company through its manager.
+                              Coordinating with tulus company through its
+                              manager.
                             </p>
                           </div>
                         </div>
