@@ -50,7 +50,7 @@ const Experience = () => {
             <TabPanels>
               <TabPanel py={12}>
                 <p className="font-primary text-white text-2xl">
-                  Currently, i am currently looking for an internship. Do you
+                  Currently, i am looking for an internship. Do you
                   want to{" "}
                   <a
                     href="mailto:hafiznasution2002@gmail.com"
