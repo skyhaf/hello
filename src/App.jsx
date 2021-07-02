@@ -7,9 +7,17 @@ function App() {
   return (
 
       <Switch>
+
         <Route exact path="/">
     
-          <Home />
+          <div className="hidden lg:contents">
+            <Home />
+          </div>
+
+          <div className="bg-primary w-screen min-h-screen lg:hidden flex text-white text-3xl font-head-border text-center justify-center items-center">
+            Untuk pengalaman yang lebih nyaman, anda bisa buka di tablet/laptop/pc
+          </div>
+
           
         </Route>
       </Switch>
