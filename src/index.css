@@ -117,6 +117,7 @@ code {
 #footer {
   background-image: url(./Assets/bg/footerBG.svg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* bagian project */
