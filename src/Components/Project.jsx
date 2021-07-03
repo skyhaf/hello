@@ -14,7 +14,7 @@ const Project = () => {
     <>
       <div className="py-28" id="Project">
         <div
-          className="font-head-border text-white text-5xl text-center py-36"
+          className="font-head-border text-white text-3xl lg:text-5xl text-center py-36"
           id="judulProjek"
         >
           PROJECT

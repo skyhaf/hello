@@ -133,26 +133,26 @@ const Home = () => {
 
         <div className="container mx-auto pt-8">
           <div className="flex flex-row justify-between">
-            <Link>
+            <Link className="w-48 h-24">
               <img src={skyhaf} />
             </Link>
             <div className="flex flex-row space-x-14 my-auto pr-12 tracking-wider">
               <a
                 href="#About"
-                className="text-2xl font-head text-white hover:underline tracking-widest"
+                className="text-lg lg:text-2xl font-head text-white hover:underline tracking-widest"
               >
                 ABOUT
               </a>
               <a href="#Experience"
-               className="text-2xl font-head text-white hover:underline tracking-widest">
+               className="text-lg lg:text-2xl font-head text-white hover:underline tracking-widest">
                 EXPERIENCE
               </a>
               <a href="#Project"
-               className="text-2xl font-head text-white hover:underline tracking-widest">
+               className="text-lg lg:text-2xl font-head text-white hover:underline tracking-widest">
                 PROJECT
               </a>
               <a href="#Resume"
-               className="text-2xl font-head text-white hover:underline tracking-widest">
+               className="text-lg lg:text-2xl font-head text-white hover:underline tracking-widest">
                 RESUME
               </a>
             </div>
@@ -161,10 +161,10 @@ const Home = () => {
 
         <div className="Headlanding py-48">
           <div className="container mx-auto px-12">
-            <h1 className="font-head-border text-white text-5xl tracking-wider">
+            <h1 className="font-head-border text-white text-3xl lg:text-5xl tracking-wider">
               SIT TIGHT!!
             </h1>
-            <h1 className="font-head-border text-white text-5xl tracking-wider">
+            <h1 className="font-head-border text-white text-3xl lg:text-5xl tracking-wider">
               YOU ARE GOING TO FLY AROUND..
             </h1>
           </div>
@@ -175,10 +175,10 @@ const Home = () => {
         <div className="container mx-auto flex justify-center" id="About">
           <div className="flex justify-center w-full py-60" id="AboutMe">
             <div className="flex flex-col space-y-6 w-1/2 pb-8">
-              <h1 className="font-head-border text-5xl text-primary text-center tracking-wide">
+              <h1 className="font-head-border text-3xl lg:text-5xl text-primary text-center tracking-wide">
                 ABOUT ME
               </h1>
-              <p className="text-justify font-primary text-primary font-semibold text-2xl tracking-wide">
+              <p className="text-justify font-primary text-primary font-semibold text-lg lg:text-2xl  lg:tracking-wide">
                 Hello, my name is{" "}
                 <a
                   href="https://www.linkedin.com/in/hafizbhadrikaalamsyah/"
@@ -200,7 +200,7 @@ const Home = () => {
                 </a>{" "}
                 majoring in Information Systems.
               </p>
-              <p className="text-justify font-primary text-primary font-semibold text-2xl tracking-wide">
+              <p className="text-justify font-primary text-primary font-semibold text-lg lg:text-2xl  lg:tracking-wide">
                 I am a{" "}
                 <Tooltip
                   hasArrow

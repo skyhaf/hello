@@ -40,17 +40,7 @@ code {
   background-image:url('../src/Assets/bg/awanKananLanding.svg');
   background-position: right -400px top;
   background-repeat: no-repeat;
-  /* animation: awanKanan 15s linear ; */
 }
-
-/* @keyframes awanKanan {
-  0%{
-    background-position:right 0;
-  }
-  100%{
-    background-position:-10px right 0;
-  }
-} */
 
 #awanKiriLanding {
   background-image: url('../src/Assets/bg/awanKiriLanding.svg');
@@ -62,7 +52,9 @@ code {
   background-image: url("../src/Assets/img/fotoAbout.svg"),url(../src/Assets/bg/aboutBackground.svg);
   background-position: top 50px right 250px, center;
   background-repeat: no-repeat, no-repeat;
+  background-size: inherit,cover;
 }
+
 
 #tabExperience .css-1n4iitm {
     border-color:black; 
@@ -172,6 +164,31 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  #AboutMe {
+    background-position: top 120px right 50px, center;
+    background-size: 20%,100%;
+  }
+
+  #awanKananLanding {
+    background-position: right -400px top;
+    background-repeat: no-repeat;
+    background-size: 75%;
+  }
+  
+  #awanKiriLanding {
+    background-position: left -400px bottom;
+    background-repeat: no-repeat;
+    background-size: 75%;
+  }
+  #skill {
+    background-position: center 14px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+  }
 }
 
 @tailwind base;

@@ -23,24 +23,24 @@ const Experience = () => {
     <>
       <div className="container mx-auto flex justify-center py-28" id="Experience">
         <div className="flex flex-col w-5/6">
-          <h1 className="font-head-border text-center text-5xl text-white">
+          <h1 className="font-head-border text-center text-3xl lg:text-5xl text-white">
             EXPERIENCE
           </h1>
           <Tabs align="center" size="lg" id="tabExperience" isLazy>
             <div className="w-5/6">
               <TabList pt={6}>
                 <Tab _active={{ outline: "none" }} _focus={{ outline: "none" }}>
-                  <p className="px-16 font-primary text-2xl text-white focus:text-yellow">
+                  <p className="px-8 lg:px-16 font-primary text-lg lg:text-2xl text-white focus:text-yellow">
                     WORK
                   </p>
                 </Tab>
                 <Tab _active={{ outline: "none" }} _focus={{ outline: "none" }}>
-                  <p className="px-16 font-primary text-2xl text-white focus:text-yellow">
+                  <p className="px-8 lg:px-16 font-primary text-lg lg:text-2xl text-white focus:text-yellow">
                     COMMITTEE
                   </p>
                 </Tab>
                 <Tab _active={{ outline: "none" }} _focus={{ outline: "none" }}>
-                  <p className="px-16 font-primary text-2xl text-white focus:text-yellow">
+                  <p className="px-8 lg:px-16 font-primary text-lg lg:text-2xl text-white focus:text-yellow">
                     SKILL
                   </p>
                 </Tab>
@@ -489,87 +489,87 @@ const Experience = () => {
                 </Accordion>
               </TabPanel>
               <TabPanel py={12}>
-                <div class="grid grid-cols-3 gap-12">
+                <div class="grid grid-cols-3 gap-12 text-sm lg:text-base">
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Management
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Project Management
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Proposal Writing
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     React.js
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Tailwind CSS
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Figma
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Django
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Java
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Python
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Javascript
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Problem Solving
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Teamwork
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Decision-making
                   </div>
                   <div
-                    className="py-10 font-semibold hover:text-secondary"
+                    className="py-8 lg:py-10 font-semibold hover:text-secondary"
                     id="skill"
                   >
                     Leadership

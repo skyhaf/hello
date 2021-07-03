@@ -6,9 +6,9 @@ const Ending = () => {
     <>
       <div className="container mx-auto flex flex-row justify-center w-3/4 pb-36 pt-72" id="Resume">
         <div className="w-1/2">
-          <img src={EndingImage} className="pt-10" />
+          <img src={EndingImage} className="pt-10 pr-8 lg:pr-0" />
         </div>
-        <div className="w-1/2 flex flex-col space-y-6 font-primary text-4xl font-semibold text-white tracking-wide">
+        <div className="w-1/2 flex flex-col space-y-6 font-primary text-2xl lg:text-4xl font-semibold text-white tracking-wide">
           <p>It seems, our flight is over...</p>
           <p>
             But hey, this is not the end. If you want to get in touch with me,
