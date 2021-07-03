@@ -21,7 +21,7 @@ import check from "../Assets/check.svg";
 const Experience = () => {
   return (
     <>
-      <div className="container mx-auto flex justify-center py-28">
+      <div className="container mx-auto flex justify-center py-28" id="Experience">
         <div className="flex flex-col w-5/6">
           <h1 className="font-head-border text-center text-5xl text-white">
             EXPERIENCE
@@ -462,7 +462,7 @@ const Experience = () => {
                         <div>
                           <h1 className="font-semibold">SORE 8 EXTINCT</h1>
                           <p className="text-xs pb-4">
-                            April 2018 - January 2018
+                            April 2018 - January 2019
                           </p>
                         </div>
 

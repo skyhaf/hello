@@ -4,9 +4,9 @@ import EndingImage from "../Assets/img/Ending.svg";
 const Ending = () => {
   return (
     <>
-      <div className="container mx-auto flex flex-row justify-center w-3/4 pb-36 pt-72">
+      <div className="container mx-auto flex flex-row justify-center w-3/4 pb-36 pt-72" id="Resume">
         <div className="w-1/2">
-          <img src={EndingImage} className="pt-8" />
+          <img src={EndingImage} className="pt-10" />
         </div>
         <div className="w-1/2 flex flex-col space-y-6 font-primary text-4xl font-semibold text-white tracking-wide">
           <p>It seems, our flight is over...</p>
@@ -21,6 +21,12 @@ const Ending = () => {
               here!
             </a>
           </p>
+          <a href="https://drive.google.com/file/d/10IuOYz9jQDQry5y41bDqcs_N8saCdsDt/view?usp=sharing"
+          className="bg-white w-2/3 rounded-lg hover:shadow-lg" target="_blank">
+            <p className="text-secondary text-center text-lg">
+            Lihat Resume
+            </p>
+          </a>
         </div>
       </div>
     </>

@@ -12,7 +12,7 @@ import BizhubCmp from "./Project/BizhubCmp";
 const Project = () => {
   return (
     <>
-      <div className="py-28">
+      <div className="py-28" id="Project">
         <div
           className="font-head-border text-white text-5xl text-center py-36"
           id="judulProjek"
