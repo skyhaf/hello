@@ -24,7 +24,7 @@ const Ending = () => {
           <a href="https://drive.google.com/file/d/10IuOYz9jQDQry5y41bDqcs_N8saCdsDt/view?usp=sharing"
           className="bg-white w-2/3 rounded-lg hover:shadow-lg" target="_blank">
             <p className="text-secondary text-center text-lg">
-            Lihat Resume
+            My Resume
             </p>
           </a>
         </div>
