@@ -21,7 +21,7 @@ const Ending = () => {
               here!
             </a>
           </p>
-          <a href="https://drive.google.com/file/d/19tmf5jaSSDfQaIm0QJ5F3PU0UoxIxt5M/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1stwZBAWBT_PRHskIlLUeuE2L3ZJAyRRw/view?usp=sharing"
           className="bg-white w-2/3 rounded-lg hover:shadow-lg" target="_blank">
             <p className="text-secondary text-center text-lg">
             My Resume
